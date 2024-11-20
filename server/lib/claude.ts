@@ -11,7 +11,6 @@ const anthropic = new Anthropic({
 });
 
 export { anthropic };
-
 interface ConversationContext {
   messages: Anthropic.MessageParam[];
   lastToolCalls?: ToolCall[];
@@ -153,3 +152,4 @@ class ClaudeClient {
 }
 
 export const claudeClient = new ClaudeClient();
+
